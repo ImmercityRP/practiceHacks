@@ -1,4 +1,5 @@
 Citizen.CreateThread(function()
+    local coords = Config.Location
     if Config.Target == 'bt-target' then
         exports['bt-target']:AddBoxZone("hackPC", vector3(coords.x, coords.y, coords.z), 1.5, 0.6, {
             name="hackPC",
