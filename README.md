@@ -16,7 +16,7 @@ Price Display can be enabled or disabled via Config.
 After the hack is over, an ESX Notification of Success or Failed is displayed.
 
 # Installation
-- Download and extract the folder to your [resources]
+- Download and extract the folder to your [resources] folder
 - Add `ensure practiceHacks` to your _**server.cfg**_
 - Configure _**config.lua**_ to your preference
 
