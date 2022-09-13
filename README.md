@@ -45,7 +45,7 @@ After the hack is over, an ESX Notification of Success or Failed is displayed.
 # Optional:
 [fallouthacking](https://forum.cfx.re/t/free-fallout-hacking-minigame/4805233)
 
-[FiveM-Drilling](https://github.com/meta-hub/fivem-drilling)
+[fivem-drilling](https://github.com/meta-hub/fivem-drilling)
 
 [mhacking](https://github.com/justgreatgaming/FiveM-Scripts-2/tree/master/mhacking)
 
