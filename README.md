@@ -58,3 +58,9 @@ After the hack is over, an ESX Notification of Success or Failed is displayed.
 [ultra-voltlab](https://forum.cfx.re/t/release-voltlab-hacking-minigame-cayo-perico-mission/3933171)
 
 [ultra-keypackhack](https://forum.cfx.re/t/release-casino-keypad-hacking-minigame-memory-minigame/4800359)
+
+# Want to change locations?
+You will need to modify the following lines in the `client.lua` file:
+
+- 3, 5, 7, and 8 if using bt-target
+- 21, 23, 25, and 26 if using q-target
