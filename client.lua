@@ -100,8 +100,9 @@ function HackMenu()
                     RequestAnimDict(anim.dict); while not HasAnimDictLoaded(anim.dict) do Citizen.Wait(1) end
                     RequestModel(objHash); while not HasModelLoaded(objHash) do Citizen.Wait(1) end
                     local coords = GetEntityCoords(player)
+                    local heading = GetEntityHeading(player)
                     local object = CreateObject(objHash, coords.x, coords.y, coords.z + 0.2, true, true, true)
-                    TaskPlayAnimAdvanced(player, anim.dict, anim.lib, coords.x, coords.y, coords.z, 0.0, 0.0, 305.34, 3.0, -4.0, -1, 2, 0, 0, 0 )
+                    TaskPlayAnimAdvanced(player, anim.dict, anim.lib, coords.x, coords.y, coords.z, 0.0, 0.0, heading, 3.0, -4.0, -1, 2, 0, 0, 0 )
                     AttachEntityToEntity(object, player, GetPedBoneIndex(player, 28422), 0.0, 0, 0.0, 0.0, 0.0, 0.0, 1, 1, 0, 0, 2, 1)
                     SetEntityAsMissionEntity(object, true, true)
                     RequestAmbientAudioBank("DLC_HEIST_FLEECA_SOUNDSET", 0)
