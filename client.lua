@@ -99,11 +99,9 @@ function HackMenu()
                     local anim = {dict = 'anim@heists@fleeca_bank@drilling', lib = 'drill_straight_idle'}
                     RequestAnimDict(anim.dict); while not HasAnimDictLoaded(anim.dict) do Citizen.Wait(1) end
                     RequestModel(objHash); while not HasModelLoaded(objHash) do Citizen.Wait(1) end
-                    SetEntityCoords(player, 1275.65, -1710.358, 53.82)
-                    SetEntityHeading(player, 305.34)
-                    TaskPlayAnimAdvanced(player, anim.dict, anim.lib, 1275.65, -1710.358, 54.77148, 0.0, 0.0, 305.34, 3.0, -4.0, -1, 2, 0, 0, 0 )
                     local coords = GetEntityCoords(player)
                     local object = CreateObject(objHash, coords.x, coords.y, coords.z + 0.2, true, true, true)
+                    TaskPlayAnimAdvanced(player, anim.dict, anim.lib, coords.x, coords.y, coords.z, 0.0, 0.0, 305.34, 3.0, -4.0, -1, 2, 0, 0, 0 )
                     AttachEntityToEntity(object, player, GetPedBoneIndex(player, 28422), 0.0, 0, 0.0, 0.0, 0.0, 0.0, 1, 1, 0, 0, 2, 1)
                     SetEntityAsMissionEntity(object, true, true)
                     RequestAmbientAudioBank("DLC_HEIST_FLEECA_SOUNDSET", 0)
