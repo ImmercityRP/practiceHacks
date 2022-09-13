@@ -3,15 +3,14 @@ FiveM Script to Practice Hacking Mini-Games
 
 Very simple script - adds a Hacker Computer to Lester's House on Amarillo Vista in El Burro Heights.
 
-Uses either bt-target or qtarget to access the computer.
-
-The computer pops up an ESX Menu with each Hack that is enabled in the Config. 
-
-Players pay a Config Set Price per practice run, which comes out of a Config Set Account (Cash/Bank/Dirty)
-
-Difficulty can be adjusted in the Config for the minigames that support it.
-
-Price Display can be enabled or disabled via Config.
+Config Options for:
+- Price per Minigame
+- Payment Account
+- Minigame Enabled/Disabled
+- Minigame Difficulty (if applicable)
+- Location of Box Zone
+- Prices displayed in menu
+- Target System (bt-target OR qtarget)
 
 After the hack is over, an ESX Notification of Success or Failed is displayed.
 
