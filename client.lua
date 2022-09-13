@@ -1,11 +1,11 @@
 Citizen.CreateThread(function()
     if Config.Target == 'bt-target' then
-        exports['bt-target']:AddBoxZone("hackPC", vector3(1276.173, -1709.981, 55.11777), 1.5, 0.6, {
+        exports['bt-target']:AddBoxZone("hackPC", vector3(coords.x, coords.y, coords.z), 1.5, 0.6, {
             name="hackPC",
-            heading=205,
+            heading= coords.w,
             debugPoly=false,
-            minZ=54.51,
-            maxZ=55.36
+            minZ= coords.z - 0.6,
+            maxZ= coords.z + 0.25
         }, {
             options = {
                 {
@@ -18,12 +18,12 @@ Citizen.CreateThread(function()
                 distance = 3.0
         })
     elseif Config.Target == 'qtarget' then
-        exports.qtarget:AddBoxZone("hackPC", vector3(1276.173, -1709.981, 55.11777), 1.5, 0.6, {
+        exports.qtarget:AddBoxZone("hackPC", vector3(coords.x, coords.y, coords.z), 1.5, 0.6, {
             name="hackPC",
-            heading=205,
+            heading= coords.w,
             debugPoly=false,
-            minZ=54.51,
-            maxZ=55.36
+            minZ= coords.z - 0.6,
+            maxZ= coords.z + 0.25
             }, {
                 options = {
                     {
