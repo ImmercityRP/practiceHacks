@@ -21,7 +21,7 @@ After the hack is over, an ESX Notification of Success or Failed is displayed.
 - Configure _**config.lua**_ to your preference
 
 # Requirements
-- **es_extended** (Tested on 1.3.5 Legacy - Should work on 1.2+/Any Legacy Branch)
+- **es_extended** (Tested on 1.3.5 Legacy - Should work on 1.3+/Any Legacy Branch)
 
 - **bt-target** - https://github.com/brentN5/bt-target 
 
