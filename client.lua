@@ -131,8 +131,6 @@ function HackMenu()
                         FreezeEntityPosition(player, false)
                         StopParticleFxLooped(ptfx.effect, 0)
                         StopGameplayCamShaking(true)
-                        Citizen.Wait(1000)
-                        interacting = false
                     end)
                 else
                     ESX.ShowNotification('Not enough ~r~'..Config.Account..' Money~s!')
