@@ -2,6 +2,8 @@ Config = {} -- Don't remove
 -- Default Location is Lester's House on Amarillo Vista in El Burro Heights.
 -- You must edit the client.lua to change the BoxZone and Animation coordinates if you wish to relocate it.
 
+Config.Location = vector4(1276.173, -1709.981, 55.11777, 205.11) -- Location of the BoxZone. To adjust size of box edit the top of client.lua for your respective target system.
+
 Config.Target = 'bt-target' -- 'bt-target' OR 'qtarget'
 
 Config.Account = 'Dirty' -- Practice Hack Payment Account = 'Cash' OR 'Bank' OR 'Dirty'
